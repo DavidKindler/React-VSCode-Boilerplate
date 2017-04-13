@@ -1,0 +1,44 @@
+{
+  "name": "react-vscode-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Redux with React and Typescript support",
+  "main": "index.js",
+  "repository": "git@github.com:DavidKindler/React-VSCode-Boilerplate.git",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch",
+    "build": "webpack ",
+    "watch": "webpack --watch ",
+    "lite-server": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^15.5.0",
+    "@types/react-dom": "^15.5.0",
+    "@types/react-redux": "^5.0.0",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jsdom": "^8.1.0",
+    "lite-server": "^2.3.0",
+    "mocha": "^2.4.5",
+    "ntypescript": "^1.201609302242.1",
+    "react-addons-test-utils": "^0.14.7",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.0",
+    "react-router": "^4.1.1",
+    "redux": "^3.6.0",
+  }
+}
