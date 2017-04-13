@@ -10,35 +10,28 @@
     "test:watch": "npm run test -- --watch",
     "build": "webpack ",
     "watch": "webpack --watch ",
-    "lite-server": "lite-server"
+    "tsc" : "tsc"
   },
-  "author": "",
+  "author": "David Kindler",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^15.5.0",
-    "@types/react-dom": "^15.5.0",
-    "@types/react-redux": "^5.0.0",
-    "babel-core": "^6.2.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.1.18",
-    "babel-preset-react": "^6.1.18",
-    "chai": "^3.5.0",
-    "chai-jquery": "^2.0.0",
-    "jsdom": "^8.1.0",
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.38",
+    "awesome-typescript-loader": "^3.1.2",
     "lite-server": "^2.3.0",
     "mocha": "^2.4.5",
-    "ntypescript": "^1.201609302242.1",
-    "react-addons-test-utils": "^0.14.7",
-    "ts-loader": "^2.0.3",
+    "source-map-loader": "^0.2.1",
     "typescript": "^2.2.2",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
+    "axios": "^0.16.1",
     "react": "^15.5.0",
     "react-dom": "^15.5.0",
     "react-redux": "^5.0.0",
     "react-router": "^4.1.1",
-    "redux": "^3.6.0",
+    "redux": "^3.6.0"
   }
 }

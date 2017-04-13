@@ -3,7 +3,7 @@
         "module": "es6",
         "target": "es2015",
         "noImplicitAny": false,
-        "sourceMap": false,
+        "sourceMap": true,
         "jsx": "react",
         "allowSyntheticDefaultImports": true,
         "allowJs": false,
