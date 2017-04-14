@@ -10,7 +10,7 @@
     "test:watch": "npm run test -- --watch",
     "build": "webpack ",
     "watch": "webpack --watch ",
-    "tsc" : "tsc"
+    "tsc": "tsc"
   },
   "author": "David Kindler",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "@types/react-dom": "^0.14.23",
     "@types/react-redux": "^4.4.38",
     "awesome-typescript-loader": "^3.1.2",
+    "html-webpack-plugin": "^2.28.0",
     "lite-server": "^2.3.0",
     "mocha": "^2.4.5",
     "source-map-loader": "^0.2.1",

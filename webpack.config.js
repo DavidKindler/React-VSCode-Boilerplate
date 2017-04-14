@@ -1,12 +1,18 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: [
     './tsx/index.tsx'
   ],
   output: {
     path: __dirname+"/dist",
-    publicPath: '/dist',
-    filename: 'bundle.js'
+    filename: 'index_bundle.js'
   },
+  plugins:[
+    new HtmlWebpackPlugin({
+      template: './tsx/index.html'
+    })
+  ],
   // Enable sourcemaps for debugging webpack's output.
   devtool: "source-map",
   module: {
@@ -21,11 +27,6 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx', 'json']
   },
-  // Uncomment if you do not want to include react and react-dom in bundle.js
-  // externals:{
-  //   "react": "React",
-  //   "react-dom": "ReactDOM"
-  // },
   devServer: {
     historyApiFallback: true,
     contentBase: './',
