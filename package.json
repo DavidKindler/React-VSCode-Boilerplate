@@ -10,7 +10,9 @@
     "test:watch": "npm run test -- --watch",
     "build": "webpack ",
     "watch": "webpack --watch ",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "David Kindler",
   "license": "ISC",
@@ -33,6 +35,8 @@
     "react-dom": "^15.5.0",
     "react-redux": "^5.0.0",
     "react-router": "^4.1.1",
-    "redux": "^3.6.0"
-  }
+    "redux": "^3.6.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
