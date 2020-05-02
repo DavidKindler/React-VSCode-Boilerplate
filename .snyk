@@ -6,3 +6,4 @@ patch:
   SNYK-JS-LODASH-450202:
     - redux > lodash:
         patched: '2019-07-04T00:58:42.836Z'
+
